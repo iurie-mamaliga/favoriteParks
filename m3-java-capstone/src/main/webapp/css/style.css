@@ -1,0 +1,212 @@
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	line-height: 1.5;
+	margin: 0;
+	padding: 3em 0;
+}
+.logo {
+	height: auto;
+	margin: 0 40px;
+	width: 300px;
+}
+.nav {
+	background-color: #f8f8f8;
+	border-top: 3px double #CCC;
+	border-bottom: 3px double #CCC;
+	padding: 1rem 0;
+	margin-bottom: 0;
+	width: 100%;
+}
+.nav li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 0 0 40px;
+}
+.nav a {
+	color: #0e7302;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.nav a:hover {
+	color: #26b60a;
+}
+#content {
+	clear: both;
+}
+#content > h3 {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.9rem;
+}
+.survey {
+	margin: 0 auto;
+	max-width: 600px;
+}
+.form-group {
+	margin: 0.5em 0;	
+}
+label {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+}
+.changeTemperatureUnit {
+	text-align: center;
+}
+.changeTemperatureUnit label {
+	font-size: 0.8em;
+    width: inherit;
+    display: block;
+}
+.parks{
+	margin: 4em 40px 2em 40px;
+	overflow: auto;
+}
+.park {
+	clear: both;
+	display: block;
+	margin: 0 0 3em 0;
+	overflow: auto;
+}
+.park .thumbnail {
+	float: left;
+	height: auto;
+	margin: 0 2em 2em 0;
+	width: 33%;
+	border: 3px double #CCC;
+}
+.park .fullSize {
+	float: none;
+	height: auto;
+	width: 100%;
+	margin-bottom: 1.5em;
+    border-bottom: 3px double #CCC;
+}
+.park .parkDescription {
+	max-width: 800px;
+}
+.single .parkDescription {
+	font-size: 1.1rem;
+    margin: 0 auto;
+    padding: 2em 2em 0 2em;
+}
+.park .parkDetails {
+	color: #0e7302;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.park .parkDetails:hover {
+	color: #26b60a;
+}
+.parks .parkInfo {
+	display: block;
+	float: left;
+}
+.inspirationalQuote {
+	color: #777;
+	font-family: "Georgia", serif;
+	font-size: 1.3rem;
+	margin: 2em 0 0 0;
+	padding: 2em;
+	text-align: center;
+	border-top: 3px double #CCC;
+	border-bottom: 3px double #CCC;
+	font-style: italic;
+}
+.inspirationalQuoteSource {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 0.9rem;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.park .parkName {
+	margin: 0;
+	font-family: "Georgia", serif;
+	font-weight: normal;
+}
+.park .parkName a {
+	color: inherit;
+	text-decoration: none;
+}
+.parks .parkName {
+	margin-top: 1rem;
+}
+.parkLocation {
+	letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #777;
+}
+.single .parkName,
+.single .parkLocation {
+	text-align: center;
+}
+.parkFacts {
+	font-size: 1.1rem;
+	width: 100%;
+	border-spacing: 0;
+}
+.parkFacts tr:nth-child(odd) {
+	background-color: #f3f3f3;
+}
+.parkFacts td {
+	font-family: "Georgia", serif;
+	padding: 0.75em 15% 0.75em 0;
+	text-align: right;
+}
+.parkFacts .label {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	padding: 0.75em 0 0.75em 15%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+.parkForecast {
+	border-top: 3px double #CCC;
+	display: block;
+	margin: 0 auto;
+	padding: 3rem 10% 0 10%;
+}
+.parkForecast tbody {
+	display: block;
+}
+.parkForecast tr {
+    float: left;
+    width: 20%;
+    min-width: 200px;
+    min-height: 300px;
+}
+.parkForecast td {
+	display: block;
+	text-align: center;
+}
+.parkForecast .parkForecastDay {
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.parkForecast img.weather {
+	height: 75px;
+	width: 75px;
+}
+.parkForecast .recommendations {
+	font-size: 0.9em;
+	font-family: "Georgia", serif;
+	font-style: italic;
+	padding: 0;
+}
+.parkForecast .recommendations li {
+	list-style-type: none;
+}
+.hidden {
+	display: none;
+}
